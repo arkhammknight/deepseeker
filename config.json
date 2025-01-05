@@ -1,0 +1,32 @@
+{
+    "database_name": "crypto_data.db",
+    "chain": "solana",
+    "filters": {
+      "min_liquidity": 10000,
+      "excluded_chains": [],
+      "max_volume_to_liquidity_ratio": 10
+    },
+    "blacklist": {
+      "coins": ["SCAMCOIN", "RUGTOKEN"],
+      "devs": ["0xScamDevAddress1", "0xScamDevAddress2"]
+    },
+    "pocket_universe_api_key": "YOUR_POCKET_UNIVERSE_API_KEY",
+    "rugcheck_api_key": "YOUR_RUGCHECK_API_KEY",
+    "telegram": {
+      "bot_token": "8167521278:AAEdpGohKniadFPnAq9v7DBO_A_B7thGqXk",
+      "chat_id": "6726828154"
+    },
+    "trading_bot": {
+      "api_key": "8167521278:AAEdpGohKniadFPnAq9v7DBO_A_B7thGqXk",
+      "api_secret": "YOUR_TRADING_BOT_API_SECRET",
+      "api_url": "https://api.tradingbot.com/v1/trade"
+    },
+    "pnl_thresholds": {
+      "profit": 10,
+      "loss": -5
+    },
+    "solana": {
+      "private_key": "ddMKwtYzG1QBzQo6wN2UKEjjSE737Rku3SqJGhqmXxWuBV2afrawZL4Q69KrJTfWBQNtMP42LYgyqmf5V1DMaia",
+      "rpc_url": "https://rpc.helius.xyz/?api-key=942c675f-d270-4a10-988c-c4496e74d670"
+    }
+}

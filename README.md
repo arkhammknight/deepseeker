@@ -3,7 +3,7 @@
 A comprehensive crypto trading bot that combines pattern detection, safety analysis, and automated trading through Hummingbot integration.
 
 ## Features 🌟
-
+   .
 - **Pattern Detection**
   - Pump and dump identification
   - Rug pull detection
